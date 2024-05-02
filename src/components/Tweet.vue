@@ -22,7 +22,7 @@ const props = defineProps({
     <ProfileImage :image="tweet.user.image"></ProfileImage>
     <div class="body">
       <div class="top">
-        <User :user="tweet.user"></User>
+        <User :user="tweet.user"></User>   
         <Timestamp :timestamp="tweet.timestamp"></Timestamp>
       </div>
       <Message :message="tweet.message"></Message> 
